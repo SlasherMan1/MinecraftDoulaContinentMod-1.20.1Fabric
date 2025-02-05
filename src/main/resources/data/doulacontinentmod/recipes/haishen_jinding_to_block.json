@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "doulacontinentmod:haishen_jinding"
+    }
+  },
+  "result": {
+    "item": "doulacontinentmod:haishen_jinkuai",
+    "count": 1
+  }
+
+}

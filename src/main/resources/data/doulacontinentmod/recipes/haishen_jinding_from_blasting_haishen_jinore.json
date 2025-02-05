@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 5,
+  "group": "haishen_jinding",
+  "ingredient": {
+    "item": "doulacontinentmod:haishen_jinore"
+  },
+  "result": "doulacontinentmod:haishen_jinding"
+}
