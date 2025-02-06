@@ -22,7 +22,7 @@
 			"com.slasherman.doulacontinent.DoulaContinentModClient"
 		],
 		"fabric-datagen": [
-			"com.slasherman.doulacontinent.DoulaContinentMODDataGenerator"
+			"com.slasherman.doulacontinent.DoulaContinentModDataGenerator"
 		]
 	},
 	"mixins": [
