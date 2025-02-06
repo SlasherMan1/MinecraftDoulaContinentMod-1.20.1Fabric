@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item WanNianHunHuan = registerItems("wannian_hunhuan",new Item(new Item.Settings()));
     public static final Item ShiNianHunHuan = registerItems("shinian_hunhuan",new Item(new Item.Settings()));
     public static final Item HaiShenJinDing = registerItems("haishen_jinding",new Item(new Item.Settings()));
+    public static final Item RAW_HAISHEN_GOLD_ORE = registerItems("raw_haishen_gold_ore",new Item(new Item.Settings()));
     public static final Item PROSPECTOR = registerItems("prospector",new prospector(new Item.Settings().maxDamage(64)));
     public static final Item HUNJI1_PHOENIX_FIRE = registerItems("hunji1_phoenix_fire",new hunji1_phoenix_fire(new Item.Settings().maxDamage(10)));
 

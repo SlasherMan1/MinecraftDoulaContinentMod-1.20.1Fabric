@@ -40,6 +40,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.HaiShenJinOre);
                         entries.add(ModItems.PROSPECTOR);
                         entries.add(ModItems.HUNJI1_PHOENIX_FIRE);
+                        entries.add(ModItems.RAW_HAISHEN_GOLD_ORE);
 
 
                     }).build());
