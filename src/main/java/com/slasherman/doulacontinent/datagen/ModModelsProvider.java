@@ -27,6 +27,8 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ShiNianHunHuan, Models.GENERATED);
         itemModelGenerator.register(ModItems.WanNianHunHuan, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_HAISHEN_GOLD_ORE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HUOYUHAO_GRILLED_FISH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SOUL_FUEL, Models.GENERATED);
 
     }
 }

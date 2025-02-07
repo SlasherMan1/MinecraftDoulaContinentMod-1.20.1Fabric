@@ -3,7 +3,8 @@
 	"package": "com.slasherman.doulacontinent.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"DoulaContientModMixin"
+		"DoulaContientModMixin",
+		"AbstractFurnaceBlockEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

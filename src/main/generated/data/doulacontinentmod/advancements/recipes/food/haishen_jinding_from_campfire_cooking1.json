@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_beetroot": {
+    "has_haishen_jinore": {
       "conditions": {
         "items": [
           {
-            "tag": "doulacontinentmod:sugar_ingredients"
+            "items": [
+              "doulacontinentmod:haishen_jinore"
+            ]
           }
         ]
       },
@@ -13,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "doulacontinentmod:sugar_from_beetroot"
+        "recipe": "minecraft:haishen_jinding_from_campfire_cooking1"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_beetroot",
+      "has_haishen_jinore",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "doulacontinentmod:sugar_from_beetroot"
+      "minecraft:haishen_jinding_from_campfire_cooking1"
     ]
   },
   "sends_telemetry_event": false

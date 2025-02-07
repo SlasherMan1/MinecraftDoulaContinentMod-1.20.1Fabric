@@ -18,6 +18,9 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.PROSPECTOR,"探矿器");
         translationBuilder.add(ModItems.ShiNianHunHuan,"十年魂环");
         translationBuilder.add(ModItems.WanNianHunHuan,"十年魂环");
+        translationBuilder.add(ModItems.RAW_HAISHEN_GOLD_ORE,"粗海神金");
+        translationBuilder.add(ModItems.HUOYUHAO_GRILLED_FISH,"霍雨浩烤鱼");
+        translationBuilder.add(ModItems.SOUL_FUEL,"灵魂燃料");
 
         translationBuilder.add(ModBlocks.HaiShenJinKuai,"海神金块");
         translationBuilder.add(ModBlocks.HaiShenJinOre,"海神金矿");

@@ -5,6 +5,7 @@ import com.slasherman.doulacontinent.item.ModItemGroup;
 import com.slasherman.doulacontinent.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,5 +27,7 @@ public class DoulaContinentMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroup.registerModItemGroup();
 		ModBlocks.registerModBlocks();
+
+		//FuelRegistry.INSTANCE.add(ModItems.SOUL_FUEL,8000);
 	}
 }

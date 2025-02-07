@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "doulacontinentmod:haishen_jinore",
+    "#minecraft:coal_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:gold_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:emerald_ores"
+  ]
+}

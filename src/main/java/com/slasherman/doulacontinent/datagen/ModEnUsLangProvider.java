@@ -18,6 +18,9 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.PROSPECTOR,"prospector");
         translationBuilder.add(ModItems.ShiNianHunHuan,"Shi Nian HunHuan");
         translationBuilder.add(ModItems.WanNianHunHuan,"Wan Nian HunHuan");
+        translationBuilder.add(ModItems.RAW_HAISHEN_GOLD_ORE,"Raw HaiShen Gold");
+        translationBuilder.add(ModItems.HUOYUHAO_GRILLED_FISH,"HuoYuHao Grilled Fish");
+        translationBuilder.add(ModItems.SOUL_FUEL,"Soul Fuel");
 
         translationBuilder.add(ModBlocks.HaiShenJinKuai,"HaiShen Gold Block");
         translationBuilder.add(ModBlocks.HaiShenJinOre,"HaiShen Gold Ore");

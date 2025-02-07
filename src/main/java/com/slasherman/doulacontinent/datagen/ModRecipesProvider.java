@@ -3,6 +3,7 @@ package com.slasherman.doulacontinent.datagen;
 import com.slasherman.doulacontinent.DoulaContinentMod;
 import com.slasherman.doulacontinent.block.ModBlocks;
 import com.slasherman.doulacontinent.item.ModItems;
+import com.slasherman.doulacontinent.tag.ModItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
@@ -41,12 +42,14 @@ public class ModRecipesProvider extends FabricRecipeProvider {
         //有序合成
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, Items.SUGAR, 3)
                 .pattern("###")
-                .input('#',Items.BEETROOT)
-                .criterion(hasItem(Items.BEETROOT), conditionsFromItem(Items.BEETROOT))
+                .input('#', ModItemTags.SUGAR_INGREDIENTS)
+                .criterion(hasItem(Items.BEETROOT), conditionsFromTag(ModItemTags.SUGAR_INGREDIENTS))
                 .offerTo(exporter, new Identifier(DoulaContinentMod.MOD_ID, "sugar_from_beetroot"));
 
-        offerFoodCookingRecipe(exporter,"campfire_cooking", RecipeSerializer.CAMPFIRE_COOKING, 200,
-                ModBlocks.HaiShenJinOre, ModItems.HaiShenJinDing, 0.7f);
+        offerFoodCookingRecipe(exporter,"campfire_cooking1", RecipeSerializer.CAMPFIRE_COOKING, 200,
+                ModBlocks.HaiShenJinOre, ModItems.HaiShenJinDing, 3.0f);
+        offerFoodCookingRecipe(exporter,"campfire_cooking2", RecipeSerializer.CAMPFIRE_COOKING, 200,
+                ModItems.RAW_HAISHEN_GOLD_ORE, ModItems.HaiShenJinDing, 3.0f);
     }
     }
 

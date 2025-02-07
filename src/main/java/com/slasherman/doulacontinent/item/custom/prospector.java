@@ -1,5 +1,6 @@
 package com.slasherman.doulacontinent.item.custom;
 
+import com.slasherman.doulacontinent.tag.ModBlockTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -52,6 +53,6 @@ public class prospector extends Item {
     }
 
     private boolean isRightBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_ORE) ||state.isOf(Blocks.DIAMOND_ORE);
+        return state.isIn(ModBlockTags.ORES);
     }
 }

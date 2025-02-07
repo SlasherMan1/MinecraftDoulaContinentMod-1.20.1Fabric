@@ -3,8 +3,11 @@
   "block.doulacontinentmod.haishen_jinore": "HaiShen Gold Ore",
   "item.doulacontinentmod.haishen_jinding": "HaiShen Gold Ingot",
   "item.doulacontinentmod.hunji1_phoenix_fire": "HunJi1: PhoenixFire",
+  "item.doulacontinentmod.huoyuhao_grilled_fish": "HuoYuHao Grilled Fish",
   "item.doulacontinentmod.prospector": "prospector",
+  "item.doulacontinentmod.raw_haishen_gold_ore": "Raw HaiShen Gold",
   "item.doulacontinentmod.shinian_hunhuan": "Shi Nian HunHuan",
+  "item.doulacontinentmod.soul_fuel": "Soul Fuel",
   "item.doulacontinentmod.wannian_hunhuan": "Wan Nian HunHuan",
   "itemGroup.doulacontinent_group": "DoulaContinent"
 }

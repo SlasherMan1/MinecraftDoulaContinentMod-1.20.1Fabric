@@ -41,6 +41,8 @@ public class ModItemGroup {
                         entries.add(ModItems.PROSPECTOR);
                         entries.add(ModItems.HUNJI1_PHOENIX_FIRE);
                         entries.add(ModItems.RAW_HAISHEN_GOLD_ORE);
+                        entries.add(ModItems.HUOYUHAO_GRILLED_FISH);
+                        entries.add(ModItems.SOUL_FUEL);
 
 
                     }).build());
