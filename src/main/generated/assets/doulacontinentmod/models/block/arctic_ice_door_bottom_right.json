@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "doulacontinentmod:block/arctic_ice_door_bottom",
+    "top": "doulacontinentmod:block/arctic_ice_door_top"
+  }
+}

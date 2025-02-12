@@ -43,6 +43,25 @@ public class ModItemGroup {
                         entries.add(ModItems.RAW_HAISHEN_GOLD_ORE);
                         entries.add(ModItems.HUOYUHAO_GRILLED_FISH);
                         entries.add(ModItems.SOUL_FUEL);
+                        entries.add(ModItems.ARCTIC_ICE_CRYSTAL);
+                        entries.add(ModBlocks.ARCTIC_ICE_BLOCK);
+                        entries.add(ModBlocks.ARCTIC_ICE_STAIRS);
+                        entries.add(ModBlocks.ARCTIC_ICE_SLAB);
+                        entries.add(ModBlocks.ARCTIC_ICE_BUTTON);
+                        entries.add(ModBlocks.ARCTIC_ICE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ARCTIC_ICE_FENCE);
+                        entries.add(ModBlocks.ARCTIC_ICE_FENCE_GATE);
+                        entries.add(ModBlocks.ARCTIC_ICE_WALL);
+                        entries.add(ModBlocks.ARCTIC_ICE_DOOR);
+                        entries.add(ModBlocks.ARCTIC_ICE_TRAPDOOR);
+                        entries.add(ModBlocks.ARCTIC_ICE_ORE);
+                        entries.add(ModItems.FIRE_ESSENCE);
+                        entries.add(ModItems.FIRE_ESSENCE_AXE);
+                        entries.add(ModItems.FIRE_ESSENCE_PICKAXE);
+                        entries.add(ModItems.FIRE_ESSENCE_SHOVEL);
+                        entries.add(ModItems.FIRE_ESSENCE_SWORD);
+                        entries.add(ModItems.FIRE_ESSENCE_HOE);
+                        entries.add(ModItems.FIRE_ESSENCE_PICKAXE_AXE);
 
 
                     }).build());

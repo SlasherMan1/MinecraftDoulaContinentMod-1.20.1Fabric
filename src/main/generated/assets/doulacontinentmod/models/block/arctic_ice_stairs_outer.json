@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "doulacontinentmod:block/arctic_ice_block",
+    "side": "doulacontinentmod:block/arctic_ice_block",
+    "top": "doulacontinentmod:block/arctic_ice_block"
+  }
+}

@@ -45,6 +45,17 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .input('#', ModItemTags.SUGAR_INGREDIENTS)
                 .criterion(hasItem(Items.BEETROOT), conditionsFromTag(ModItemTags.SUGAR_INGREDIENTS))
                 .offerTo(exporter, new Identifier(DoulaContinentMod.MOD_ID, "sugar_from_beetroot"));
+        //添加2x2配方，冰晶合成冰块
+        offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCTIC_ICE_BLOCK,ModItems.ARCTIC_ICE_CRYSTAL);
+
+       /* public static void offer2x2CompactingRecipe(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, ItemConvertible output, ItemConvertible input) {
+            ShapedRecipeJsonBuilder.create(category, output, 1)
+                    .input('#', input)
+                    .pattern("##")
+                    .pattern("##")
+                    .criterion(hasItem(input), conditionsFromItem(input))
+                    .offerTo(exporter);
+        }*/
 
         offerFoodCookingRecipe(exporter,"campfire_cooking1", RecipeSerializer.CAMPFIRE_COOKING, 200,
                 ModBlocks.HaiShenJinOre, ModItems.HaiShenJinDing, 3.0f);

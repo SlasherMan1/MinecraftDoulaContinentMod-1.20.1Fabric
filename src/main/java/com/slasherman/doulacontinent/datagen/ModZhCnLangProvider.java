@@ -21,11 +21,33 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.RAW_HAISHEN_GOLD_ORE,"粗海神金");
         translationBuilder.add(ModItems.HUOYUHAO_GRILLED_FISH,"霍雨浩烤鱼");
         translationBuilder.add(ModItems.SOUL_FUEL,"灵魂燃料");
+        translationBuilder.add(ModItems.ARCTIC_ICE_CRYSTAL,"冰之结晶");
+        translationBuilder.add(ModItems.FIRE_ESSENCE,"焱焰之火");
+        translationBuilder.add(ModItems.FIRE_ESSENCE_SWORD,"焱焰剑");
+        translationBuilder.add(ModItems.FIRE_ESSENCE_HOE,"焱焰锄");
+        translationBuilder.add(ModItems.FIRE_ESSENCE_PICKAXE,"焱焰镐");
+        translationBuilder.add(ModItems.FIRE_ESSENCE_AXE,"焱焰斧");
+        translationBuilder.add(ModItems.FIRE_ESSENCE_SHOVEL,"焱焰锹");
+        translationBuilder.add(ModItems.FIRE_ESSENCE_PICKAXE_AXE,"焱焰镐斧");
 
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_ORE,"极北冰晶矿");
         translationBuilder.add(ModBlocks.HaiShenJinKuai,"海神金块");
         translationBuilder.add(ModBlocks.HaiShenJinOre,"海神金矿");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_SLAB,"冰晶台阶");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_BLOCK,"冰晶块");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_STAIRS,"冰晶楼梯");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_BUTTON,"冰晶按钮");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_PRESSURE_PLATE,"冰晶压力板");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_FENCE,"冰晶栅栏");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_FENCE_GATE,"冰晶栅栏");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_WALL,"冰晶墙");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_DOOR,"冰晶门");
+        translationBuilder.add(ModBlocks.ARCTIC_ICE_TRAPDOOR,"冰晶活板门");
 
         translationBuilder.add(ModItemGroup.DOULACONTINENT_GROUP,"斗 罗 大 陆");
+
+        translationBuilder.add("tooltips.doulacontinent.pickaxe_axe.shift", "§e镐与斧的结合体！");
+        translationBuilder.add("tooltips.doulacontinent.pickaxe_axe", "按住§6§l§nShift§r§r§r获取更多信息");
 
     }
 }

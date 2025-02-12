@@ -11,6 +11,7 @@ import javax.swing.text.html.HTML;
 public class ModBlockTags {
     public static final TagKey<Block> HAISHEN_GOLD = of("haishen_gold");
     public static final TagKey<Block> ORES = of("ores");
+    public static final TagKey<Block> PICKAXE_AXE = of("pickaxe_axe");
 
 
     private static TagKey<Block> of(String id) {

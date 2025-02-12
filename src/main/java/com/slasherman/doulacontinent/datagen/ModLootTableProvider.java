@@ -5,6 +5,7 @@ import com.slasherman.doulacontinent.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
+import net.minecraft.block.SlabBlock;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
@@ -26,8 +27,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.HaiShenJinOre,
                 likeCopperOreDrops(ModBlocks.HaiShenJinOre,
                         ModBlocks.HaiShenJinOre.asItem(),
-                        1.0F,2.0F)
-        );
+                        1.0F,2.0F));
+        addDrop(ModBlocks.ARCTIC_ICE_BLOCK);
+        addDrop(ModBlocks.ARCTIC_ICE_SLAB, slabDrops(ModBlocks.ARCTIC_ICE_SLAB));
+        addDrop(ModBlocks.ARCTIC_ICE_BUTTON);
+        addDrop(ModBlocks.ARCTIC_ICE_PRESSURE_PLATE);
+        addDrop(ModBlocks.ARCTIC_ICE_FENCE);
+        addDrop(ModBlocks.ARCTIC_ICE_FENCE_GATE);
+        addDrop(ModBlocks.ARCTIC_ICE_DOOR, doorDrops(ModBlocks.ARCTIC_ICE_DOOR));
+        addDrop(ModBlocks.ARCTIC_ICE_TRAPDOOR);
+        addDrop(ModBlocks.ARCTIC_ICE_WALL);
+
 
     }
     public LootTable.Builder likeCopperOreDrops(Block drop, Item item, float min, float max) {

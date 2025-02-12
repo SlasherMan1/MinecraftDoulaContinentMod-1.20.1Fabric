@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "doulacontinentmod:block/arctic_ice_slab"
+    },
+    "type=double": {
+      "model": "doulacontinentmod:block/arctic_ice_block"
+    },
+    "type=top": {
+      "model": "doulacontinentmod:block/arctic_ice_slab_top"
+    }
+  }
+}

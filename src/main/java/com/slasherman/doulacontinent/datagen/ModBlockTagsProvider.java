@@ -21,15 +21,18 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.HaiShenJinOre)
+                .add(ModBlocks.ARCTIC_ICE_ORE)
                 .add(ModBlocks.HaiShenJinKuai);
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.HaiShenJinKuai)
+                .add(ModBlocks.ARCTIC_ICE_ORE)
                 .add(ModBlocks.HaiShenJinOre);
         getOrCreateTagBuilder(ModBlockTags.HAISHEN_GOLD)
                 //.add(ModBlocks.深层海神金矿)
                 .add(ModBlocks.HaiShenJinOre);
         getOrCreateTagBuilder(ModBlockTags.ORES)
                 .add(ModBlocks.HaiShenJinOre)
+                .add(ModBlocks.ARCTIC_ICE_ORE)
                 .forceAddTag(BlockTags.COAL_ORES)
                 .forceAddTag(BlockTags.COPPER_ORES)
                 .forceAddTag(BlockTags.IRON_ORES)
@@ -38,6 +41,17 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
                 .forceAddTag(BlockTags.GOLD_ORES)
                 .forceAddTag(BlockTags.DIAMOND_ORES)
                 .forceAddTag(BlockTags.EMERALD_ORES);
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.ARCTIC_ICE_FENCE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.ARCTIC_ICE_WALL);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ARCTIC_ICE_FENCE_GATE);
+        getOrCreateTagBuilder(ModBlockTags.PICKAXE_AXE)
+                .forceAddTag(BlockTags.PICKAXE_MINEABLE)
+                .forceAddTag(BlockTags.AXE_MINEABLE);
+
+
 
 
     }

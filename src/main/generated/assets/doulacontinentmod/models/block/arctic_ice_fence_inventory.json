@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "doulacontinentmod:block/arctic_ice_block"
+  }
+}

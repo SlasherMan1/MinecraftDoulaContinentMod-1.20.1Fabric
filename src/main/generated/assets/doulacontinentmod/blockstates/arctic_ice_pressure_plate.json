@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "doulacontinentmod:block/arctic_ice_pressure_plate"
+    },
+    "powered=true": {
+      "model": "doulacontinentmod:block/arctic_ice_pressure_plate_down"
+    }
+  }
+}
